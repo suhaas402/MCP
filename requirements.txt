@@ -1,0 +1,6 @@
+langchain-ollama
+langchain-mcp-adapters
+mcp
+langgraph
+requests
+python-dotenv
