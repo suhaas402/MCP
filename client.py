@@ -65,7 +65,7 @@ async def main():
     london = await weather_tool.ainvoke({"city": "London"})
     print(london[0]["text"])
 
-    # FIXED: Weather + Math (Manual approach)
+    # Weather + Math (Manual approach)
     print("\nWeather + Math (Agent decides tools):")
     
     query = "What is the temperature in Tokyo plus 10?"
